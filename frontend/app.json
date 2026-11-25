@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Medical Management",
+    "slug": "medical-management",
+    "scheme": "medicalapp",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-asset",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Allow Medical Management to use your location to set a delivery destination."
+        }
+      ]
+    ],
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
